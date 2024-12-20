@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: grey;
+    font-family:monospace;
+}
+
+h1 {
+    color: rgb(0, 255, 251);
+}
+
+a {
+    color: rgb(85, 0, 128);
+}
+
+a:hover {
+    color: rgb(255, 115, 0);
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+ul li:hover {
+    color: rgb(255, 127, 232);
+}
+
+ul li:nth-child(4) {
+    background-color: rgb(76, 228, 177);
+}
+
+ul li::before {
+    content: " 🎮 ";
+}
+
+a::after {
+    content: "🎮";
+}
+
+p::first-letter {
+    font-size: 100px;
+    color: rgba(14, 188, 236, 0.671);
+}
